@@ -95,11 +95,11 @@ const auditTrail = [
 const securityAssumptions = [
   {
     title: "User Responsibility",
-    description: "Users are responsible for verifying they are using testnet addresses. While TxnGuard validates address formats, users should double-check before any real-world actions.",
+    description: "Users are responsible for verifying they are using testnet addresses. While CryptoArmor validates address formats, users should double-check before any real-world actions.",
   },
   {
     title: "RPC Provider Trust",
-    description: "TxnGuard relies on public RPC endpoints for blockchain data. Data accuracy depends on the reliability of these providers (Etherscan, Infura, etc.).",
+    description: "CryptoArmor relies on public RPC endpoints for blockchain data. Data accuracy depends on the reliability of these providers (Etherscan, Infura, etc.).",
   },
   {
     title: "Simulation Limitations",
@@ -111,7 +111,7 @@ const securityAssumptions = [
   },
   {
     title: "No Security Guarantee",
-    description: "TxnGuard is a security training tool, not a security guarantee. Low-risk scores do not guarantee safety.",
+    description: "CryptoArmor is a security training tool, not a security guarantee. Low-risk scores do not guarantee safety.",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function TestnetCompliance() {
         
         <p className="text-sm text-muted-foreground max-w-xl">
           Security policies, data handling practices, and compliance documentation 
-          for TxnGuard's testnet-only operation mode.
+          for CryptoArmor's testnet-only operation mode.
         </p>
       </div>
 
@@ -151,7 +151,7 @@ export default function TestnetCompliance() {
                 <div>
                   <h4 className="font-medium text-sm">Zero Private Key Exposure</h4>
                   <p className="text-xs text-muted-foreground">
-                    TxnGuard never handles, stores, or generates private keys in any form.
+                    CryptoArmor never handles, stores, or generates private keys in any form.
                   </p>
                 </div>
               </div>
@@ -255,7 +255,7 @@ export default function TestnetCompliance() {
               <div className="flex items-start gap-3 mb-4">
                 <AlertTriangle className="h-5 w-5 text-warning shrink-0 mt-0.5" />
                 <p className="text-sm text-muted-foreground">
-                  The following assumptions underpin TxnGuard's security model. Users and auditors 
+                  The following assumptions underpin CryptoArmor's security model. Users and auditors 
                   should review these carefully.
                 </p>
               </div>
@@ -306,7 +306,7 @@ export default function TestnetCompliance() {
             <Shield className="h-10 w-10 text-primary mx-auto mb-4" />
             <h3 className="font-medium text-lg mb-2">Testnet-Only Certification</h3>
             <p className="text-sm text-muted-foreground max-w-md mx-auto">
-              TxnGuard is certified to operate exclusively on blockchain testnets. 
+              CryptoArmor is certified to operate exclusively on blockchain testnets. 
               No mainnet access, no real funds at risk, no private key handling.
             </p>
             <div className="flex items-center justify-center gap-2 mt-4">
@@ -326,7 +326,7 @@ export default function TestnetCompliance() {
         <div className="flex items-center gap-2 text-muted-foreground">
           <Shield className="h-4 w-4" />
           <p className="text-xs font-mono">
-            TxnGuard Compliance Documentation • Testnet Only • Read-Only Mode
+            CryptoArmor Compliance Documentation • Testnet Only • Read-Only Mode
           </p>
         </div>
       </div>

@@ -306,7 +306,7 @@ export default function TestnetDashboard() {
                 </CardHeader>
                 <CardContent className="prose prose-sm prose-invert max-w-none">
                   <p className="text-muted-foreground">
-                    TxnGuard operates exclusively on testnet networks to ensure user safety during 
+                    CryptoArmor operates exclusively on testnet networks to ensure user safety during 
                     security training and analysis. This design decision provides several benefits:
                   </p>
                   
@@ -321,7 +321,7 @@ export default function TestnetDashboard() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Lock className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                      <span><strong>No Private Keys:</strong> TxnGuard never generates, stores, or handles private keys in any form.</span>
+                      <span><strong>No Private Keys:</strong> CryptoArmor never generates, stores, or handles private keys in any form.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Lock className="h-4 w-4 text-primary shrink-0 mt-0.5" />
@@ -366,7 +366,7 @@ export default function TestnetDashboard() {
                 </CardHeader>
                 <CardContent className="text-sm text-muted-foreground space-y-3">
                   <p>
-                    TxnGuard includes {TESTNET_WALLET_FIXTURES.length} predefined testnet wallet fixtures 
+                    CryptoArmor includes {TESTNET_WALLET_FIXTURES.length} predefined testnet wallet fixtures 
                     for testing and training purposes:
                   </p>
                   <ul className="space-y-1">
@@ -391,7 +391,7 @@ export default function TestnetDashboard() {
           <div className="flex items-center gap-2 text-muted-foreground">
             <Shield className="h-4 w-4" />
             <p className="text-xs font-mono">
-              TxnGuard Testnet Dashboard • Read-Only Mode • No Private Keys
+              CryptoArmor Testnet Dashboard • Read-Only Mode • No Private Keys
             </p>
           </div>
         </div>

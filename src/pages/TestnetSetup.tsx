@@ -67,7 +67,7 @@ const setupSteps = [
   {
     step: 1,
     title: "Install a Wallet",
-    description: "Install MetaMask or another Web3 wallet browser extension. This is needed only for creating addresses, not for connecting to TxnGuard.",
+    description: "Install MetaMask or another Web3 wallet browser extension. This is needed only for creating addresses, not for connecting to CryptoArmor.",
     icon: Wallet,
     tips: ["MetaMask, Rainbow, or Rabby work well", "Hardware wallets also support testnets", "No real funds needed"],
   },
@@ -88,16 +88,16 @@ const setupSteps = [
   {
     step: 4,
     title: "Copy Your Address",
-    description: "Copy your testnet wallet address and paste it into TxnGuard's Testnet Dashboard for analysis.",
+    description: "Copy your testnet wallet address and paste it into CryptoArmor's Testnet Dashboard for analysis.",
     icon: Copy,
-    tips: ["Triple-check it's a testnet address", "TxnGuard will reject mainnet addresses", "Analysis is completely read-only"],
+    tips: ["Triple-check it's a testnet address", "CryptoArmor will reject mainnet addresses", "Analysis is completely read-only"],
   },
 ];
 
 const securityGuarantees = [
   {
     title: "No Private Keys",
-    description: "TxnGuard never requests, stores, or generates private keys. Your wallet remains secure.",
+    description: "CryptoArmor never requests, stores, or generates private keys. Your wallet remains secure.",
     icon: Lock,
     color: "text-success",
   },
@@ -115,7 +115,7 @@ const securityGuarantees = [
   },
   {
     title: "No Wallet Connection",
-    description: "TxnGuard doesn't connect to your wallet. You paste addresses manually for analysis.",
+    description: "CryptoArmor doesn't connect to your wallet. You paste addresses manually for analysis.",
     icon: Shield,
     color: "text-warning",
   },
@@ -143,7 +143,7 @@ export default function TestnetSetup() {
           
           <p className="text-sm text-muted-foreground max-w-xl">
             Learn how to set up testnet wallets for safe security testing. 
-            TxnGuard uses testnets exclusively to ensure no real funds are ever at risk.
+            CryptoArmor uses testnets exclusively to ensure no real funds are ever at risk.
           </p>
         </div>
 
@@ -158,7 +158,7 @@ export default function TestnetSetup() {
                 <div className="flex-1">
                   <h2 className="text-lg font-medium mb-2">Why Testnets Only?</h2>
                   <p className="text-sm text-muted-foreground mb-4">
-                    TxnGuard is designed for security training and analysis. Using testnets ensures 
+                    CryptoArmor is designed for security training and analysis. Using testnets ensures 
                     that you can safely explore attack patterns, test detection mechanisms, and 
                     understand blockchain security without risking real assets.
                   </p>
@@ -374,7 +374,7 @@ export default function TestnetSetup() {
           <div className="flex items-center gap-2 text-muted-foreground">
             <Shield className="h-4 w-4" />
             <p className="text-xs font-mono">
-              TxnGuard Setup Guide • Read-Only Mode • No Real Funds
+              CryptoArmor Setup Guide • Read-Only Mode • No Real Funds
             </p>
           </div>
         </div>

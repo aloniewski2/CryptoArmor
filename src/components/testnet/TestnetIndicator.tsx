@@ -86,7 +86,7 @@ export function MainnetWarning({ className }: MainnetWarningProps) {
           Mainnet Address Detected
         </h4>
         <p className="text-xs text-muted-foreground mt-1">
-          TxnGuard only supports testnet addresses for safety. Mainnet addresses 
+          CryptoArmor only supports testnet addresses for safety. Mainnet addresses 
           are blocked to prevent accidental interaction with real funds.
         </p>
       </div>

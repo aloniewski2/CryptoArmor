@@ -153,7 +153,7 @@ export default function AttackSimulationTestnet() {
           
           <p className="text-sm text-muted-foreground max-w-xl">
             Simulate attack scenarios using real testnet blockchain data. 
-            Understand how TxnGuard detects threats in authentic conditions.
+            Understand how CryptoArmor detects threats in authentic conditions.
           </p>
         </div>
         
@@ -378,7 +378,7 @@ export default function AttackSimulationTestnet() {
           <div className="flex items-center gap-2 text-muted-foreground">
             <Shield className="h-4 w-4" />
             <p className="text-xs font-mono">
-              TxnGuard Attack Simulation • Testnet Only • Educational Mode • v1.0.0
+              CryptoArmor Attack Simulation • Testnet Only • Educational Mode • v1.0.0
             </p>
           </div>
         </div>

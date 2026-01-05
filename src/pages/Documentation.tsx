@@ -42,7 +42,7 @@ export default function Documentation() {
           <section id="overview" className="mb-12">
             <h1 className="text-2xl font-display tracking-tight-display mb-3">Documentation</h1>
             <p className="text-sm text-muted-foreground mb-6">
-              TxnGuard provides pre-transaction risk analysis to help users, exchanges, and compliance 
+              CryptoArmor provides pre-transaction risk analysis to help users, exchanges, and compliance 
               teams evaluate the safety of cryptocurrency transactions before execution.
             </p>
 
@@ -83,7 +83,7 @@ export default function Documentation() {
           <section id="testnet-policy" className="mb-12">
             <h2 className="text-xl font-display tracking-tight-display mb-3">Testnet Policy</h2>
             <p className="text-sm text-muted-foreground mb-4">
-              TxnGuard operates exclusively on testnet networks to ensure user safety during security training.
+              CryptoArmor operates exclusively on testnet networks to ensure user safety during security training.
             </p>
 
             <Card className="border-primary/20 bg-primary/5 mb-4">
@@ -100,7 +100,7 @@ export default function Documentation() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Shield className="h-3.5 w-3.5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>No Private Keys:</strong> TxnGuard never handles private keys.</span>
+                    <span><strong>No Private Keys:</strong> CryptoArmor never handles private keys.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Shield className="h-3.5 w-3.5 text-primary shrink-0 mt-0.5" />
@@ -133,7 +133,7 @@ export default function Documentation() {
           <section id="threat-model" className="mb-12">
             <h2 className="text-xl font-display tracking-tight-display mb-3">Threat Model</h2>
             <p className="text-sm text-muted-foreground mb-4">
-              TxnGuard is designed to protect against the following threat categories:
+              CryptoArmor is designed to protect against the following threat categories:
             </p>
 
             <div className="space-y-3">
@@ -247,7 +247,7 @@ export default function Documentation() {
                   <div>
                     <h4 className="font-medium text-warning text-sm mb-1">Important</h4>
                     <p className="text-xs text-muted-foreground">
-                      TxnGuard provides risk indicators, not guarantees. A "low risk" score does not 
+                      CryptoArmor provides risk indicators, not guarantees. A "low risk" score does not 
                       guarantee safety. Always exercise caution and conduct additional research.
                     </p>
                   </div>
@@ -277,7 +277,7 @@ export default function Documentation() {
           <section id="api" className="mb-12">
             <h2 className="text-xl font-display tracking-tight-display mb-3">API Reference</h2>
             <p className="text-sm text-muted-foreground mb-4">
-              Integrate TxnGuard risk analysis into your applications.
+              Integrate CryptoArmor risk analysis into your applications.
             </p>
 
             <Card className="overflow-hidden">

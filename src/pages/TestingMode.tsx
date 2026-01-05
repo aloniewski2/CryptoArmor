@@ -172,7 +172,7 @@ export default function TestingMode() {
         <div className="flex items-center gap-2 text-muted-foreground">
           <Shield className="h-4 w-4" />
           <p className="text-xs font-mono">
-            TxnGuard Testing Mode • Security Training Only • v1.0.0
+            CryptoArmor Testing Mode • Security Training Only • v1.0.0
           </p>
         </div>
       </div>

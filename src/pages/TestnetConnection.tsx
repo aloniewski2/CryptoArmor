@@ -464,7 +464,7 @@ export default function TestnetConnection() {
                   No Private Keys
                 </h4>
                 <p className="text-[11px] text-muted-foreground">
-                  TxnGuard never generates, stores, or handles private keys in any form.
+                  CryptoArmor never generates, stores, or handles private keys in any form.
                 </p>
               </div>
             </div>

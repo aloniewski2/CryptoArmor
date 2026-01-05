@@ -47,9 +47,26 @@ CryptoArmor is a real-time blockchain security tool that analyzes wallet address
 - **Routing**: React Router v6
 
 ## Architecture
-src/ ├── components/ │ ├── layout/ # AppSidebar, Header │ ├── scanner/ # TransactionInput, RiskAnalysisResult │ ├── testing/ # Attack simulation components │ ├── testnet/ # Testnet-specific UI components │ └── ui/ # shadcn/ui + custom components ├── lib/ │ ├── blockchainApi.ts # Mainnet API integration │ ├── attackScenarios.ts # Attack vector definitions │ └── testnet/ # Testnet utilities and fixtures ├── pages/ # Route components └── integrations/supabase/ # Supabase client
 
-supabase/functions/ ├── blockchain-data/ # Etherscan API proxy └── testnet-blockchain-data/ # Testnet RPC proxy
+```
+src/
+├── components/
+│   ├── layout/          # AppSidebar, Header
+│   ├── scanner/         # TransactionInput, RiskAnalysisResult
+│   ├── testing/         # Attack simulation components
+│   ├── testnet/         # Testnet-specific UI components
+│   └── ui/              # shadcn/ui + custom components
+├── lib/
+│   ├── blockchainApi.ts # Mainnet API integration
+│   ├── attackScenarios.ts # Attack vector definitions
+│   └── testnet/         # Testnet utilities and fixtures
+├── pages/               # Route components
+└── integrations/supabase/ # Supabase client
+
+supabase/functions/
+├── blockchain-data/     # Etherscan API proxy
+└── testnet-blockchain-data/ # Testnet RPC proxy
+```
 
 
 ## Getting Started

@@ -88,7 +88,7 @@ export function AppSidebar({ children }: AppSidebarProps) {
           <Shield className="h-5 w-5 text-primary flex-shrink-0" />
           {!collapsed && (
             <span className="font-display text-base tracking-tight">
-              Txn<span className="text-primary">Guard</span>
+              Crypto<span className="text-primary">Armor</span>
             </span>
           )}
         </div>

@@ -109,7 +109,7 @@ export function validateTestnetAddress(
       isMainnet: true,
       isTestnet: false,
       network: "mainnet",
-      warning: "Bitcoin mainnet address detected. TxnGuard only supports testnet addresses for safety.",
+      warning: "Bitcoin mainnet address detected. CryptoArmor only supports testnet addresses for safety.",
       error: "Mainnet addresses are not allowed",
     };
   }
@@ -204,7 +204,7 @@ export function isBitcoinAddress(address: string): boolean {
 export function validateChainId(chainId: number): { valid: boolean; network?: TestnetNetwork; error?: string } {
   // Explicitly reject mainnet
   if (chainId === 1) {
-    return { valid: false, error: "Mainnet (chainId 1) is not allowed. TxnGuard only supports testnets." };
+    return { valid: false, error: "Mainnet (chainId 1) is not allowed. CryptoArmor only supports testnets." };
   }
 
   // Find matching network

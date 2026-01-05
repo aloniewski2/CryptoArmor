@@ -39,7 +39,7 @@ export interface ProviderHealth {
 export function validateChainId(chainId: number, expectedNetwork: TestnetNetwork): boolean {
   // Explicitly reject mainnet
   if (chainId === 1) {
-    throw new Error("Mainnet (chainId 1) is not allowed. TxnGuard only supports testnets.");
+    throw new Error("Mainnet (chainId 1) is not allowed. CryptoArmor only supports testnets.");
   }
   
   const expectedChainId = CHAIN_IDS[expectedNetwork];
