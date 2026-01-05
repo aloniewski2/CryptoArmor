@@ -1,0 +1,7 @@
+project_id = "ggmgrbaehqyemjkornid"
+
+[functions.blockchain-data]
+verify_jwt = false
+
+[functions.testnet-blockchain-data]
+verify_jwt = false
